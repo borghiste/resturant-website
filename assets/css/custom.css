@@ -1,9 +1,9 @@
-/* Error: expected "{".
+/* Error: Expected ".
  *   ,
- * 1 | i@import 
- *   |          ^
+ * 1 | @import "../node_modules/bootstrap/
+ *   |                                    ^
  *   '
- *   scss/custom.scss 1:10  root stylesheet */
+ *   scss/custom.scss 1:36  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a   \2577 \a 1 \2502  i@import \a   \2502           ^\a   \2575 \a   scss/custom.scss 1:10  root stylesheet';
+  content: 'Error: Expected ".\a   \2577 \a 1 \2502  @import "../node_modules/bootstrap/\a   \2502                                     ^\a   \2575 \a   scss/custom.scss 1:36  root stylesheet';
 }

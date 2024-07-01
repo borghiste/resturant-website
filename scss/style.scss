@@ -1,4 +1,12 @@
 
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
 @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
 
 
@@ -10,7 +18,7 @@ body{
    
 
       .header-section{
-      border: 1px solid black;
+   
       min-height:50rem;
       background-image: url("../../img/header.jpg");
       background-attachment: fixed;
@@ -18,6 +26,7 @@ body{
       background-repeat: no-repeat;
       background-size: cover;
       display: flex;
+      
       
       justify-content: center;
 
@@ -30,22 +39,46 @@ body{
      
      
       nav{
-         margin-left: 50rem;
          display:flex;
        align-items: center;
          justify-content: flex-end;
-         width: 100vh;}
-      nav a{color: aliceblue; text-decoration: none;margin:0.3rem;}   
-      nav h2{margin-right: 96rem;
-         margin-left: 0;
-         display:inline;}
-         h1{font-size:10rem;
-            margin-right:8rem;
-            padding-top:6rem;
+        margin: 0 auto;
+         width: 100vw;
             
-            
-            
-         color: aliceblue; text-decoration: underline;}
-   }
+      color: white;}
+      justify-content: space-between;
+      nav h2{display: inline-block;
+      padding-right: 50rem;}
+      
+
+      nav a{color:white; text-decoration: none;margin:0.3rem;}   
+     
+        
+      
    
+      
+         .h1-container{display: flex;
+            justify-content: space-around;
+         }
+        
+         .h1-container h1{font-size:10rem;
+            padding-top: 8rem;
+            color: white; text-decoration: underline;}
+         
+      }
+      
+   
+   
+            
+            
+            
+            
+         
+   
+   .p-description{
+   font-size: 5rem;
+line-height: auto;
+text-align: center;
+justify-self:last baseline}
+
 }
