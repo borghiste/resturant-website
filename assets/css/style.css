@@ -11899,6 +11899,12 @@ body .header-section .h1-container h1 {
 }
 body .banner {
   background-color: #C4C4C4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .banner .p-descriptiom {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */
