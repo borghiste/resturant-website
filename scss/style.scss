@@ -1,0 +1,79 @@
+@use 'custom' as *;
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+
+
+html,body,h1,h2,h3{margin:0; padding:0;font-family:'oranienbaum';}
+body{background-color: $primary-color;
+
+
+  
+   
+   
+
+      .header-section{
+   
+      min-height:50rem;
+      background-image: url("../../img/header.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      
+      
+      justify-content: center;
+
+      .header-section header{display:flex;
+      justify-content: space-around;
+      
+
+   align-items: center;}
+     
+     
+     
+      nav{
+         display:flex;
+       align-items: center;
+         justify-content: flex-end;
+        margin: 0 auto;
+         width: 100vw;
+            
+      color: white;}
+      justify-content: space-between;
+      nav h2{display: inline-block;
+      padding-right: 50rem;}
+      
+
+      nav a{color:white; text-decoration: none;margin:0.3rem;}   
+     
+        
+      
+   
+      
+         .h1-container{display: flex;
+            justify-content: space-around;
+         }
+        
+         .h1-container h1{font-size:10rem;
+            padding-top: 8rem;
+            color: white; text-decoration: underline;}
+         
+      }
+      
+   
+   
+            
+       .banner{background-color: $gray;
+   
+        
+       
+   
+   
+ 
+   }
+}
