@@ -1,4 +1,18 @@
-$primary-color: #777777;
-$gray:#C4C4C4;
+$primary: #777777;
+$secondary:#3B3131;
+$gray--100:#C4C4C4;
+
+.btn-primary{color: #3B3131;
+}
+
+@mixin make-container($gutter: $container-padding-x) {
+    --#{$prefix}gutter-x: #{$gutter};
+    --#{$prefix}gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--#{$prefix}gutter-x) * .5); // stylelint-disable-line function-disallowed-list
+    padding-left: calc(var(--#{$prefix}gutter-x) * .5); // stylelint-disable-line function-disallowed-list
+    margin-right: 0;
+    margin-left: 0;
+}
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss'

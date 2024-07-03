@@ -8,7 +8,7 @@
 
 
 html,body,h1,h2,h3{margin:0; padding:0;font-family:'oranienbaum';}
-body{background-color: $primary-color;
+body{background-color: $primary;
 
 
   
@@ -68,12 +68,16 @@ body{background-color: $primary-color;
    
    
             
-       .banner{background-color: $gray;
+       .banner{background-color: $gray--100;
          display:flex;
          align-items: center;
          flex-direction: column;
    
-        .p-descriptiom{text-align: justify;}
+        .p-description{text-align: justify;
+      max-width:16rem;}
+
+      p{max-width: 40rem;
+      text-align: justify;}
        
    
    
