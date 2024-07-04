@@ -3,20 +3,22 @@
 
 
 
-
+// general
 @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
 
 
-html,body,h1,h2,h3,a,li{margin:0; padding:0;font-family:'oranienbaum'; }
+html,body,h1,h2,h3,a,li{margin:0; padding:0;font-family:'oranienbaum';color:white; }
+div{padding:0;box-sizing: border-box;}
 body{background-color: $primary;
 
 
   
    
-   
+   // header
 
       .header-section{
 
+         max-height:50rem;
       background-image: url("../../img/header.jpg");
       background-attachment: fixed;
       background-position: center;
@@ -52,9 +54,14 @@ body{background-color: $primary;
       
    
       
-         .h1-container{display: flex;
+         .h-container{display: flex;
+            margin-top: 11rem;
+            margin-bottom: 11rem;
             justify-content: space-around;
+      
          }
+
+
         
          .h1-container h1{font-size:10rem;
             padding-top: 8rem;
@@ -70,11 +77,23 @@ body{background-color: $primary;
          align-items: center;
          flex-direction: column;
    
-        .p-description{text-align: justify;
-      max-width:16rem;}
+      
 
-      p{max-width: 40rem;
-      text-align: justify;}
+      .banner p{
+      text-align: justify;
+      max-width:9rem;
+  
+}
        
        }
-      }
+.gallery{object-fit: contain;
+   max-width:1500px;
+   .gallery .row{max-height: 591px;}
+   
+   
+  
+
+}
+   }
+       
+  

@@ -1,7 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap");
-.btn-primary {
+.btn-secondary {
   color: #3B3131;
+  cursor: pointer;
 }
 
 /*!
@@ -228,11 +229,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(2.225rem + 11.7vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 2.5rem;
+    font-size: 11rem;
   }
 }
 
@@ -8239,7 +8240,7 @@ textarea.form-control-lg {
 }
 
 .fs-1 {
-  font-size: calc(1.375rem + 1.5vw) !important;
+  font-size: calc(2.225rem + 11.7vw) !important;
 }
 
 .fs-2 {
@@ -11802,7 +11803,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 1200px) {
   .fs-1 {
-    font-size: 2.5rem !important;
+    font-size: 11rem !important;
   }
   .fs-2 {
     font-size: 2rem !important;
@@ -11853,12 +11854,19 @@ html, body, h1, h2, h3, a, li {
   margin: 0;
   padding: 0;
   font-family: "oranienbaum";
+  color: white;
+}
+
+div {
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #777777;
 }
 body .header-section {
+  max-height: 50rem;
   background-image: url("../../img/header.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -11887,8 +11895,10 @@ body .header-section nav a {
   text-decoration: none;
   margin: 0.3rem;
 }
-body .header-section .h1-container {
+body .header-section .h-container {
   display: flex;
+  margin-top: 11rem;
+  margin-bottom: 11rem;
   justify-content: space-around;
 }
 body .header-section .h1-container h1 {
@@ -11903,13 +11913,16 @@ body .banner {
   align-items: center;
   flex-direction: column;
 }
-body .banner .p-description {
+body .banner .banner p {
   text-align: justify;
-  max-width: 16rem;
+  max-width: 9rem;
 }
-body .banner p {
-  max-width: 40rem;
-  text-align: justify;
+body .gallery {
+  object-fit: contain;
+  max-width: 1500px;
+}
+body .gallery .gallery .row {
+  max-height: 591px;
 }
 
 /*# sourceMappingURL=style.css.map */
