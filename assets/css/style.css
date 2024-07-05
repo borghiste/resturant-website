@@ -11917,12 +11917,8 @@ body .banner .banner p {
   text-align: justify;
   max-width: 9rem;
 }
-body .gallery {
-  object-fit: contain;
-  max-width: 1500px;
-}
-body .gallery .gallery .row {
-  max-height: 591px;
+body .gallery div {
+  display: inline;
 }
 
 /*# sourceMappingURL=style.css.map */

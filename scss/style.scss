@@ -43,6 +43,7 @@ body{background-color: $primary;
          width: 100%;
          
       }
+      
       justify-content: space-between;
       nav h2{display: inline-block;
       padding-right: 50rem;}
@@ -86,14 +87,15 @@ body{background-color: $primary;
 }
        
        }
-.gallery{object-fit: contain;
-   max-width:1500px;
-   .gallery .row{max-height: 591px;}
+      
+       .gallery div{display:inline;}
+}
+   
    
    
   
 
-}
-   }
+
+   
        
   
