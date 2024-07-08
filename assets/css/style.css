@@ -11882,7 +11882,7 @@ body .header-section .header-section header {
   align-items: center;
 }
 body .header-section nav {
-  PADDING: 0;
+  padding: 0;
   margin: 0;
   width: 100%;
 }
@@ -11917,8 +11917,8 @@ body .banner .banner p {
   text-align: justify;
   max-width: 9rem;
 }
-body .gallery div {
-  display: inline;
+body .col {
+  flex: 0 0 0;
 }
 
 /*# sourceMappingURL=style.css.map */

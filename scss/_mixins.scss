@@ -1,0 +1,17 @@
+
+@use 'custom'as *;
+
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;
+// scss-docs-end grid-breakpoints
+
+
+@mixin flex-col-0{flex: 0 0 0 ;}
