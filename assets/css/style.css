@@ -11850,6 +11850,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.custom-container {
+  min-width: 10vw;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+}
+
 html, body, h1, h2, h3, a, li {
   margin: 0;
   padding: 0;
@@ -11867,6 +11875,7 @@ body {
 }
 body .header-section {
   max-height: 50rem;
+  max-width: 100%;
   background-image: url("../../img/header.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -11901,23 +11910,24 @@ body .header-section .h-container {
   margin-bottom: 11rem;
   justify-content: space-around;
 }
-body .header-section .h1-container h1 {
+body .h1-container h1 {
   font-size: 10rem;
   padding-top: 8rem;
   color: white;
   text-decoration: underline;
 }
-body .banner {
+
+.banner {
   background-color: #C4C4C4;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-body .banner .banner p {
+.banner .banner p {
   text-align: justify;
   max-width: 9rem;
 }
-body .col {
+.col {
   flex: 0 0 0;
 }
 
