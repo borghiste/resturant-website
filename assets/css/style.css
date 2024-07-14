@@ -11874,10 +11874,9 @@ body {
   background-color: #C4C4C4;
 }
 body .header-section {
-  max-height: 50rem;
   max-width: 100%;
   background-image: url("../../img/header.jpg");
-  background-attachment: fixed;
+  background-attachment: lfixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11885,7 +11884,12 @@ body .header-section {
   justify-content: center;
   justify-content: space-between;
 }
-body .header-section .header-section header {
+@media screen and (max-width: 480px) {
+  body .header-section {
+    width: 100vw;
+  }
+}
+body .header-section header {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -11910,21 +11914,39 @@ body .header-section .h-container {
   margin-bottom: 11rem;
   justify-content: space-around;
 }
+@media screen and (max-width: 480px) {
+  body .header-section .h-container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  body .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+body .gallery:nth-child(1) {
+  flex-direction: column;
+}
+body .gallery:nth-child(2) {
+  flex-direction: column;
+}
+body .gallery:nth-child(3) {
+  flex-direction: column;
+}
 body .h1-container h1 {
   font-size: 10rem;
   padding-top: 8rem;
   color: white;
   text-decoration: underline;
 }
-
-div p {
+body div p {
   width: 16rem;
 }
-div img {
+body div img {
   max-height: 591px;
 }
-
-.col {
+body .col {
   flex: 0 0 0;
 }
 
