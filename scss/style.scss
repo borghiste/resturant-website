@@ -27,7 +27,7 @@ body{ background-color:$primary-light;
        max-width: 100%;
        
       background-image: url("../../img/header.jpg");
-      background-attachment:lfixed;
+      background-attachment:fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -112,14 +112,17 @@ div{
         
      
       }
-     .review{padding-left:90px;}
+     .review{
+      left:512px;
+      padding-left:90px;
+    margin-left:10rem;}
       .review div:nth-child(1){
        height:29.56rem;
          width:41.06rem;
       border:1px solid black;
-      z-index: 4;
+      z-index: 2;
      
-       background-color: red;
+       background-color: #E9E9E9;
       top:2.37rem;
       bottom:3.18rem;
       right:2.5rem;
@@ -132,11 +135,20 @@ div{
    height:29.56rem;
          width:41.06rem;
       border:1px solid black;
-     background-color: antiquewhite;
+     background-color:#E9E9E9;
     top:3.18rem;
-z-index: 1;
 
 
+
+}
+.footer1{background-image: url('../../img/header.jpg');
+    background-attachment:fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   max-width: 100%;
+   height: 32rem;
+   
 }
 }
       
