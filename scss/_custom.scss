@@ -1,15 +1,39 @@
+// colors
 $primary-light:#C4C4C4;
 $primary-dark: #777777;
-$secondary:#3B3131;
 
 
-$gray--100:#C4C4C4;
+
+// scss-docs-start gray-color-variables
+$white:    #fff!default;
+$gray-100: #3B3131!default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
 
 
-.btn-secondary{color: $secondary;
+
+
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+) !default;
+
+
+
+
+// custom buttons
+.btn-secondary{ @extend .btn; color:$gray-100; 
     cursor: pointer;
-    
     }
+    .btn-xl{@extend .btn-lg;
+    width:351px;}
 
 
 

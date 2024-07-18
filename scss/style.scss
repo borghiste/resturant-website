@@ -73,7 +73,7 @@ body{ background-color:$primary-light;
             margin-top: 11rem;
             margin-bottom: 11rem;
             justify-content: space-around;
-        @media screen and (max-width:480px){flex-direction:column;}
+        @media screen and (max-width:30rem){flex-direction:column;}
         
             
          }
@@ -106,11 +106,44 @@ body{ background-color:$primary-light;
 div{
          p{width:16rem;}
 
-         img{max-height: 591px;
+         img{max-height: 36.93rem;
            
         }
-
+        
+     
       }
+     .review{padding-left:90px;}
+      .review div:nth-child(1){
+       height:29.56rem;
+         width:41.06rem;
+      border:1px solid black;
+      z-index: 4;
+     
+       background-color: red;
+      top:2.37rem;
+      bottom:3.18rem;
+      right:2.5rem;
+     
+       
+      
+
+   }
+.review div:nth-child(2){
+   height:29.56rem;
+         width:41.06rem;
+      border:1px solid black;
+     background-color: antiquewhite;
+    top:3.18rem;
+z-index: 1;
+
+
+}
+}
+      
+   
+   
+
+      
 
    
    
@@ -123,4 +156,3 @@ div{
 
        .col{@include flex-col-0}
 
-}
