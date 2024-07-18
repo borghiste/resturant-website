@@ -11890,6 +11890,9 @@ div {
 body {
   background-color: #C4C4C4;
 }
+body p {
+  color: #000;
+}
 body .header-section {
   max-width: 100%;
   background-image: url("../../img/header.jpg");
@@ -11957,9 +11960,6 @@ body .h1-container h1 {
   color: white;
   text-decoration: underline;
 }
-body div p {
-  width: 16rem;
-}
 body div img {
   max-height: 36.93rem;
 }
@@ -11967,6 +11967,10 @@ body .review {
   left: 512px;
   padding-left: 90px;
   margin-left: 10rem;
+}
+body .review p {
+  width: 36.12rem;
+  height: 20.5rem;
 }
 body .review div:nth-child(1) {
   height: 29.56rem;
