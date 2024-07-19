@@ -2,14 +2,31 @@
 $primary-light:#C4C4C4;
 $primary-dark: #777777;
 
+$bg-button:#3B3131;
+
 
 
 // custom buttons
-.btn-secondary{ @extend .btn; color:grey; 
-    cursor: pointer;
-    }
+
+    
+    
+    
     .btn-xl{@extend .btn-lg;
-    width:351px;}
+        
+        background-color:$bg-button!important;
+        cursor: pointer;
+        color: white!important;
+    width:21.93rem;
+    
+    &:hover {
+        color: $primary-light!important;
+}
+    
+
+    }
+    
+
+
 
 $h1-font-size:               11rem;
 

@@ -41,16 +41,20 @@ body{ background-color:$primary-light;
 
        header{display:flex;
       justify-content: space-around;
+     
       
 
-   align-items: center;}
+ width:100%;
+
+}
 
 
      
      
      
-      nav{
-        
+      nav{ display: flex;
+         
+      
            
          
       padding:0;
@@ -154,6 +158,7 @@ div{
    height: 32rem;
    
 }
+.footer2{a{color:black;}}
 }
       
    

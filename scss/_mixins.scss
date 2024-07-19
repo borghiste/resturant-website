@@ -30,3 +30,6 @@ $grid-breakpoints: (
 .custom-container {
   @include make-container();
 }
+
+@mixin btn{background-color:$bng-color;}
+
