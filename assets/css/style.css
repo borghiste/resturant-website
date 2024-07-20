@@ -11881,6 +11881,9 @@ body {
 body p {
   color: #000;
 }
+body main {
+  min-height: 56.25rem;
+}
 body .header-section {
   max-width: 100%;
   background-image: url("../../img/header.jpg");
@@ -11890,17 +11893,13 @@ body .header-section {
   background-size: cover;
   display: flex;
   justify-content: center;
+  max-width: 100%;
   justify-content: space-between;
 }
 @media screen and (max-width: 480px) {
   body .header-section {
     width: 100vw;
   }
-}
-body .header-section header {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
 }
 body .header-section nav {
   display: flex;
@@ -11918,10 +11917,8 @@ body .header-section nav a {
   margin: 0.3rem;
 }
 body .header-section .h-container {
-  display: flex;
-  margin-top: 11rem;
+  margin-top: 20rem;
   margin-bottom: 11rem;
-  justify-content: space-around;
 }
 @media screen and (max-width: 30rem) {
   body .header-section .h-container {

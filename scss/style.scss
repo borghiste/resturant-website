@@ -17,7 +17,7 @@ body{ background-color:$primary-light;
    p{color: $black}
 
 
-  
+  main{min-height:56.25rem;}
    
    // header
 
@@ -36,17 +36,16 @@ body{ background-color:$primary-light;
      
       display:flex;
       
-      
       justify-content: center;
 
-       header{display:flex;
-      justify-content: space-around;
+      //  header{
+      
      
       
 
- width:100%;
+ max-width:100%;
 
-}
+
 
 
      
@@ -74,10 +73,9 @@ body{ background-color:$primary-light;
       
    
       
-         .h-container{display: flex;
-            margin-top: 11rem;
+         .h-container{
+            margin-top: 20rem;
             margin-bottom: 11rem;
-            justify-content: space-around;
         @media screen and (max-width:30rem){flex-direction:column;}
         
             
