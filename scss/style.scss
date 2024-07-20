@@ -17,54 +17,46 @@ body{ background-color:$primary-light;
    p{color: $black}
 
 
-  main{min-height:56.25rem;}
+  main{min-height:56.25rem;   
    
-   // header
 
-      .header-section{
-
-         @media screen and (max-width:480px){width:100vw;}
-
-       max-width: 100%;
+      
        
       background-image: url("../../img/header.jpg");
       background-attachment:fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      
-     
-      display:flex;
-      
-      justify-content: center;
+      @media screen and (max-width:480px){width:100vw;}
 
-      //  header{
-      
-     
+}
+   
+ 
+
       
 
- max-width:100%;
-
-
-
-
+      
+      
      
      
-     
-      nav{ display: flex;
+      
+      
+      
+
+
+
+
+
+
          
       
            
          
-      padding:0;
-        margin: 0;
-         width: 100%;
+     
          
       }
       
-      justify-content: space-between;
-      nav h2{display: inline-block;
-      padding-right: 50rem;}
+     
       
 
       nav a{color:white; text-decoration: none;margin:0.3rem;}   
@@ -76,11 +68,12 @@ body{ background-color:$primary-light;
          .h-container{
             margin-top: 20rem;
             margin-bottom: 11rem;
+            min-width: 100%;
         @media screen and (max-width:30rem){flex-direction:column;}
         
             
          }
-      }
+         
          .gallery{
             @media screen and (max-width:480px){flex-direction: column;
             align-items:center;
@@ -157,7 +150,7 @@ div{
    
 }
 .footer2{a{color:black;}}
-}
+
       
    
    

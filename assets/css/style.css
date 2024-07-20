@@ -11883,82 +11883,76 @@ body p {
 }
 body main {
   min-height: 56.25rem;
-}
-body .header-section {
-  max-width: 100%;
   background-image: url("../../img/header.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  max-width: 100%;
-  justify-content: space-between;
 }
 @media screen and (max-width: 480px) {
-  body .header-section {
+  body main {
     width: 100vw;
   }
 }
-body .header-section nav {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-body .header-section nav h2 {
-  display: inline-block;
-  padding-right: 50rem;
-}
-body .header-section nav a {
+
+nav a {
   color: white;
   text-decoration: none;
   margin: 0.3rem;
 }
-body .header-section .h-container {
+
+.h-container {
   margin-top: 20rem;
   margin-bottom: 11rem;
+  min-width: 100%;
 }
 @media screen and (max-width: 30rem) {
-  body .header-section .h-container {
+  .h-container {
     flex-direction: column;
   }
 }
+
 @media screen and (max-width: 480px) {
-  body .gallery {
+  .gallery {
     flex-direction: column;
     align-items: center;
   }
 }
-body .gallery:nth-child(1) {
+
+.gallery:nth-child(1) {
   flex-direction: column;
 }
-body .gallery:nth-child(2) {
+
+.gallery:nth-child(2) {
   flex-direction: column;
 }
-body .gallery:nth-child(3) {
+
+.gallery:nth-child(3) {
   flex-direction: column;
 }
-body .h1-container h1 {
+
+.h1-container h1 {
   font-size: 10rem;
   padding-top: 8rem;
   color: white;
   text-decoration: underline;
 }
-body div img {
+
+div img {
   max-height: 36.93rem;
 }
-body .review {
+
+.review {
   left: 512px;
   padding-left: 90px;
   margin-left: 10rem;
 }
-body .review p {
+.review p {
   width: 36.12rem;
   height: 20.5rem;
 }
-body .review div:nth-child(1) {
+
+.review div:nth-child(1) {
   height: 29.56rem;
   width: 41.06rem;
   border: 1px solid black;
@@ -11968,14 +11962,16 @@ body .review div:nth-child(1) {
   bottom: 3.18rem;
   right: 2.5rem;
 }
-body .review div:nth-child(2) {
+
+.review div:nth-child(2) {
   height: 29.56rem;
   width: 41.06rem;
   border: 1px solid black;
   background-color: #E9E9E9;
   top: 3.18rem;
 }
-body .footer1 {
+
+.footer1 {
   background-image: url("../../img/header.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -11984,7 +11980,8 @@ body .footer1 {
   max-width: 100%;
   height: 32rem;
 }
-body .footer2 a {
+
+.footer2 a {
   color: black;
 }
 
